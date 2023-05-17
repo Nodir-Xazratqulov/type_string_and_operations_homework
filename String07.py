@@ -1,4 +1,4 @@
-def main():
+def main(a):
     """
     Return a string whose length is zero.
     Args:
@@ -6,4 +6,5 @@ def main():
     Returns:
         str: return answer.
     """
-    return 
+    return len(a)
+print(main(''))
